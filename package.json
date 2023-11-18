@@ -2,7 +2,7 @@
   "name": "ecmascript-review",
   "version": "1.0.0",
   "description": "ECMAScript Review",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,8 @@
   "author": "nh",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.6.2",
+    "node-fetch": "^3.3.2",
     "request": "^2.88.2"
   }
 }
